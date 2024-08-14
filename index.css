@@ -1,0 +1,43 @@
+.main_div
+{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar_div
+{
+  width: 40%;
+  background-color: rgb(89, 153, 153);
+  border-right: 5px solid white;
+}
+.posts_div
+{
+  background-color: rgb(154, 204, 204);
+
+}
+button
+{
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+  padding: 7px;
+  margin: 10px;
+  width: 90%;
+}
+button:hover
+{
+  cursor: pointer;
+}
+
+.post
+{
+  border: 3px solid rgb(89, 153, 153);
+  color: rgb(35, 98, 81);
+  padding: 7px;
+  margin: 50px 50px;
+}
+
+.selected{
+  border: 2px solid red;
+}
